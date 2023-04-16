@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livraria Z/S</title>
+
+    <link rel="stylesheet" href="/lib/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header id="cabecalho">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggler navbar-dark order-2"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h1 class="titulo pt-2 order-1">Livraria Z/S</h1>
+
+          <nav
+            class="collapse navbar-collapse mt-2 justify-content-end order-3"
+            id="menu"
+          >
+            <ul class="nav navbar-nav navbar-dark nav-pills">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-a-loja">Sobre a Loja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#maisVendidos">Mais Vendidos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocoes">Promoções</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- CAROUSEL  -->
+
+    <section id="home">
+      <div class="container-fluid">
+        <div
+          id="mainSlider"
+          class="carousel carousel-fade slide"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="mainSlider"
+              data-bs-slide-to="0"
+              class="active"
+            ></li>
+            <li data-bs-target="mainSlider" data-bs-slide-to="1"></li>
+            <li data-bs-target="mainSlider" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/img1.jpeg" alt="" class="w-100 d-block" />
+              <div class="carousel-caption">
+                <h5 class="titulo-carousel">Variedades de Livros</h5>
+                <p class="txt-carousel">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Delectus tempora odit voluptas labore beatae nostrum illum
+                  laboriosam et quia assumenda, minima voluptate veniam, facere
+                  quod? Sit magni quae aspernatur. Saepe.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/img2.jpeg" alt="" class="w-100 d-block" />
+              <div class="carousel-caption">
+                <h5 class="titulo-carousel">Primeira loja</h5>
+                <p class="txt-carousel">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Numquam exercitationem porro cupiditate sapiente doloribus
+                  sequi pariatur quasi, dolorem aut corporis ea culpa dolor,
+                  neque esse eveniet labore veritatis consequatur veniam.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/img3.jpeg" alt="" class="w-100 d-block" />
+              <div class="carousel-caption">
+                <h5 class="titulo-carousel">Livros Clásicos</h5>
+                <p class="txt-carousel">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  earum nulla, repellat impedit assumenda laboriosam odit
+                  accusantium, nam libero quia dolor. Aperiam quidem
+                  necessitatibus repellendus. Sed saepe veritatis sapiente
+                  facilis?
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            data-bs-target="#mainSlider"
+            data-bs-slide="prev"
+            class="carousel-control-prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            data-bs-target="#mainSlider"
+            data-bs-slide="next"
+            class="carousel-control-next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE A LOJA  -->
+    <section id="sobre-a-loja">
+      <div class="container">
+        <h2 class="sobre-a-loja-titulo">Sobre a Loja</h2>
+        <p class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
+          provident pariatur deserunt soluta optio ratione quaerat dolorum!
+          Fugit, voluptas? Quis aliquam maiores minus excepturi nihil velit nemo
+          nam eos ab?
+        </p>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          repellendus quam recusandae fugit earum alias soluta sint numquam
+          magnam, deserunt consectetur, obcaecati doloribus eveniet. Fugit
+          sapiente dolores laborum autem voluptatem. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Minima cum fuga eum natus blanditiis.
+          Sit, sed doloremque numquam ullam perspiciatis corporis corrupti
+          tempore, quia error necessitatibus voluptatem vitae magnam distinctio?
+        </p>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum
+          aliquam magnam delectus possimus dolore, praesentium accusamus
+          voluptatem aperiam asperiores? Similique numquam iste facilis
+          dignissimos odit, nobis recusandae dolorum praesentium? Lorem ipsum
+          dolor sit amet, consectetur adipisicing elit. Eum maiores soluta
+          quisquam sit commodi et, ipsa repudiandae dignissimos quibusdam illo
+          incidunt, animi laudantium blanditiis. Iusto suscipit fugiat molestias
+          odio dolore.
+        </p>
+      </div>
+    </section>
+    <!-- LIVROS MAIS VENDIDOS  -->
+    <section id="maisVendidos">
+      <div class="container">
+        <div class="row">
+          <h3 class="mt-5">Livros Mais Vendidos</h3>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 01</span>
+              </header>
+              <img
+                src="img/OSegredoDaMenteMilionaria.jpg"
+                alt=""
+                class="px-5 pt-3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">O Segredo da Mente Milíonaria</h5>
+                <h6 class="card-subtitle">T.Haver Elaker</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <p class="card-text">R$32,00</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 02</span>
+              </header>
+              <img src="img/ComoFazerAmigos.jpg" alt="" class="px-5 pt-3" />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">
+                  Como Fazer Amigos e Influenciar Pessoas
+                </h5>
+                <h6 class="card-subtitle">Dale Carnegia</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <p class="card-text">R$36,23</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 03</span>
+              </header>
+              <img
+                src="img/APsicologiaFinanceira.jpg"
+                alt=""
+                class="px-5 pt-3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">A Psicologia Financeira</h5>
+                <h6 class="card-subtitle">Morgan Housel</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <p class="card-text">R$38,24</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 04</span>
+              </header>
+              <img
+                src="img/OHomeMaisRicoDaBabilonia.jpg"
+                alt=""
+                class="px-5 pt-3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">O Homem Mais Rico da Babilônia</h5>
+                <h6 class="card-subtitle">George S Clason</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <p class="card-text">R$27,57</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROMOÇÕES  -->
+    <section id="promocoes">
+      <div class="container">
+        <div class="row">
+          <h3 class="mt-5">Promoções</h3>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 01</span>
+              </header>
+              <img src="img/PoderDoHabito.jpg" alt="" class="px-5 pt-3" />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">O Poder do Hábito</h5>
+                <h6 class="card-subtitle">Charles Duhigg</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <span class="card-text card__valor-antigo"
+                  ><small class="text-body-secondary">R$82,90</small></span
+                >
+                <p class="card-text d-inline">R$58,00</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 02</span>
+              </header>
+              <img
+                src="img/MaisEspertoQueODiabo.jpg"
+                alt=""
+                class="px-5 pt-3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">Mais Esperto Que o Diabo</h5>
+                <h6 class="card-subtitle">Napoleon Hill</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <span class="card-text card__valor-antigo"
+                  ><small class="text-body-secondary">R$49,90</small></span
+                >
+                <p class="card-text d-inline">R$26,90</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 03</span>
+              </header>
+              <img src="img/PaiRicoPaiPobre.jpg" alt="" class="px-5 pt-3" />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">Pai Rico Pai Pobre</h5>
+                <h6 class="card-subtitle">Robert T. Kiyosaki</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <span class="card-text card__valor-antigo"
+                  ><small class="text-body-secondary">R$87,90</small></span
+                >
+                <p class="card-text d-inline">R$49,99</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 my-5">
+            <article class="card">
+              <header class="card-header">
+                <span class="mais-vendidos__ranking"># 04</span>
+              </header>
+              <img src="img/Mindset.jpg" alt="" class="px-5 pt-3" />
+              <div class="card-body text-center">
+                <h5 class="card-title card-altura">
+                  Mindset: A Nova Psicologia do Sucesso
+                </h5>
+                <h6 class="card-subtitle">Carol S. Dweck</h6>
+                <p class="card-text">
+                  <small class="text-body-secondary">Capa Comum</small>
+                </p>
+                <span class="card-text card__valor-antigo"
+                  ><small class="text-body-secondary">R$69,90</small></span
+                >
+                <p class="card-text d-inline">R$45,90</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-white py-2">
+      <div class="container">
+        <div class="row">
+          <p class="text-center">&copy;Todos os Direitos Reservados</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
